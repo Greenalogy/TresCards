@@ -58,3 +58,22 @@ a {
   text-decoration: none;
   color: black;
 }
+
+@media (max-width: 1024px) {
+  .cards-container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  .card-text {
+    text-align: left;
+  }
+}
